@@ -1,0 +1,51 @@
+
+Confusion Matrices for Set 1
+ReconNet: 
+[[2323  186]
+ [   9  204]]
+
+Confusion Matrices for Set 2
+ReconNet: 
+[[2377  132]
+ [   6  207]]
+
+Confusion Matrices for Set 3
+ReconNet: 
+[[2321  188]
+ [  10  203]]
+
+Confusion Matrices for Set 4
+ReconNet: 
+[[2303  206]
+ [   4  209]]
+
+Confusion Matrices for Set 5
+ReconNet: 
+[[2333  175]
+ [   7  206]]
+
+ReconNet Accuracy: 0.9321773043957506
+ReconNet Sensitivity: 0.9661971830985916
+ReconNet Specificity :0.9292889775436816
+
+
+
+ReconNet Accuracy: 0.9283614988978692, Set: 1
+ReconNet Sensitivity: 0.9577464788732394, Set: 1
+ReconNet Specificity: 0.9258668792347549, Set: 1
+
+ReconNet Accuracy: 0.9493019838354151, Set: 2
+ReconNet Sensitivity: 0.971830985915493, Set: 2
+ReconNet Specificity: 0.9473893981666003, Set: 2
+
+ReconNet Accuracy: 0.9272593681116826, Set: 3
+ReconNet Sensitivity: 0.9530516431924883, Set: 3
+ReconNet Specificity: 0.9250697489039458, Set: 3
+
+ReconNet Accuracy: 0.922850844966936, Set: 4
+ReconNet Sensitivity: 0.9812206572769953, Set: 4
+ReconNet Specificity: 0.917895575926664, Set: 4
+
+ReconNet Accuracy: 0.9331128261668504, Set: 5
+ReconNet Sensitivity: 0.9671361502347418, Set: 5
+ReconNet Specificity: 0.9302232854864434, Set: 5

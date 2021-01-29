@@ -1,0 +1,41 @@
+
+
+Fold 1 :
+
+Accuracy of: 0.9786921381337252
+Sensitivity of: 0.8544600938967136
+Specificity of: 0.9892387405340773
+
+
+Fold 2 :
+
+Accuracy of: 0.9849375459221161
+Sensitivity of: 0.9154929577464789
+Specificity of: 0.9908330011956955
+
+
+Fold 3 :
+
+Accuracy of: 0.9812637766348273
+Sensitivity of: 0.8685446009389671
+Specificity of: 0.9908330011956955
+
+
+Fold 4 :
+
+Accuracy of: 0.9823659074210139
+Sensitivity of: 0.8732394366197183
+Specificity of: 0.9916301315265046
+
+
+Fold 5 :
+
+Accuracy of: 0.9878721058434399
+Sensitivity of: 0.9342723004694836
+Specificity of: 0.9924242424242424
+
+
+Averaged metrics:
+Accuracy of: 0.9830262947910245
+Sensitivity of: 0.8892018779342724
+Specificity of: 0.990991823375243

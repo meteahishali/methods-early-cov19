@@ -1,0 +1,61 @@
+
+Fold: 1
+
+Confusion Matrix: 
+[[2501    8]
+ [  11  202]]
+
+Fold: 2
+
+Confusion Matrix: 
+[[2507    2]
+ [  13  200]]
+
+Fold: 3
+
+Confusion Matrix: 
+[[2502    7]
+ [  12  201]]
+
+Fold: 4
+
+Confusion Matrix: 
+[[2500    9]
+ [  10  203]]
+
+Fold: 5
+
+Confusion Matrix: 
+[[2501    7]
+ [   7  206]]
+
+Accuracy of: 0.9936807387827173
+Sensitivity of: 0.9502347417840376
+Specificity of: 0.9973692474237879
+
+
+
+
+Accuracy of: [0.99301984], Set: 1
+Sensitivity of: [0.94835681], Set: 1
+Specificity of: [0.99681148], Set: 1
+
+
+Accuracy of: [0.99448935], Set: 2
+Sensitivity of: [0.93896714], Set: 2
+Specificity of: [0.99920287], Set: 2
+
+
+Accuracy of: [0.99301984], Set: 3
+Sensitivity of: [0.94366197], Set: 3
+Specificity of: [0.99721004], Set: 3
+
+
+Accuracy of: [0.99301984], Set: 4
+Sensitivity of: [0.95305164], Set: 4
+Specificity of: [0.99641291], Set: 4
+
+
+Accuracy of: [0.99485483], Set: 5
+Sensitivity of: [0.96713615], Set: 5
+Specificity of: [0.99720893], Set: 5

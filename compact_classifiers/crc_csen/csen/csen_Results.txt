@@ -1,0 +1,84 @@
+
+Confusion Matrices for Set 1
+CSEN1: 
+[[2351  158]
+ [   7  206]]
+CSEN2: 
+[[2371  138]
+ [   5  208]]
+
+Confusion Matrices for Set 2
+CSEN1: 
+[[2363  146]
+ [   3  210]]
+CSEN2: 
+[[2387  122]
+ [   3  210]]
+
+Confusion Matrices for Set 3
+CSEN1: 
+[[2400  109]
+ [  10  203]]
+CSEN2: 
+[[2407  102]
+ [  10  203]]
+
+Confusion Matrices for Set 4
+CSEN1: 
+[[2405  104]
+ [   6  207]]
+CSEN2: 
+[[2413   96]
+ [   5  208]]
+
+Confusion Matrices for Set 5
+CSEN1: 
+[[2394  114]
+ [   6  207]]
+CSEN2: 
+[[2404  104]
+ [   6  207]]
+
+CSEN1 Accuracy: 0.9512825788807276
+CSEN2 Accuracy: 0.956573076685242
+CSEN1 Sensitivity: 0.9699530516431925
+CSEN2 Sensitivity: 0.9727699530516432
+CSEN1 Specificity: 0.9496974528062612
+CSEN2 Specificity: 0.9551979699239039
+
+
+
+CSEN1 Accuracy: 0.9393828067597355, Set: 1
+CSEN2 Accuracy: 0.9474650991917708, Set: 1
+CSEN1 Sensitivity: 0.9671361502347418, Set: 1
+CSEN2 Sensitivity: 0.9765258215962441, Set: 1
+CSEN1 Specificity: 0.9370267038660821, Set: 1
+CSEN2 Specificity: 0.9449980071741729, Set: 1
+
+CSEN1 Accuracy: 0.9452608376193975, Set: 2
+CSEN2 Accuracy: 0.9540778839088905, Set: 2
+CSEN1 Sensitivity: 0.9859154929577465, Set: 2
+CSEN2 Sensitivity: 0.9859154929577465, Set: 2
+CSEN1 Specificity: 0.9418094858509366, Set: 2
+CSEN2 Specificity: 0.9513750498206457, Set: 2
+
+CSEN1 Accuracy: 0.9562821454812638, Set: 3
+CSEN2 Accuracy: 0.9588537839823659, Set: 3
+CSEN1 Sensitivity: 0.9530516431924883, Set: 3
+CSEN2 Sensitivity: 0.9530516431924883, Set: 3
+CSEN1 Specificity: 0.9565563969709048, Set: 3
+CSEN2 Specificity: 0.9593463531287365, Set: 3
+
+CSEN1 Accuracy: 0.9595885378398237, Set: 4
+CSEN2 Accuracy: 0.9628949301983836, Set: 4
+CSEN1 Sensitivity: 0.971830985915493, Set: 4
+CSEN2 Sensitivity: 0.9765258215962441, Set: 4
+CSEN1 Specificity: 0.9585492227979274, Set: 4
+CSEN2 Specificity: 0.9617377441211639, Set: 4
+
+CSEN1 Accuracy: 0.9558985667034179, Set: 5
+CSEN2 Accuracy: 0.9595736861447997, Set: 5
+CSEN1 Sensitivity: 0.971830985915493, Set: 5
+CSEN2 Sensitivity: 0.971830985915493, Set: 5
+CSEN1 Specificity: 0.9545454545454546, Set: 5
+CSEN2 Specificity: 0.9585326953748007, Set: 5
