@@ -31,6 +31,7 @@ np.random.seed(7)
 path_net = 'Models/'
 path_data = '../data/'
 outdir = 'features/'
+if not os.path.exists(path_net): os.makedirs(path_net)
 if not os.path.exists(outdir): os.makedirs(outdir)
 
 DataAugmentation = True

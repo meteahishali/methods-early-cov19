@@ -48,6 +48,7 @@ unzip qatacov19-dataset.zip
 The provided ```create_numpy_data.py``` script is used to arrange the data in numpy arrays for the methods in this repository:
 ```
 cd methods_early-cov19/
+mkdir data/
 python create_numpy_data.py \
     --dir_early QaTa-COV19/Early-QaTa-COV19/No_COVID-19_Pneumonia_Cases/ \
     --dir_mild QaTa-COV19/Early-QaTa-COV19/Limited_COVID-19_Pneumonia_Cases/ \
@@ -64,8 +65,9 @@ cd methods_early-cov19/compact_classifiers/
 
 Methods in this group need an additional step which is the feature extraction. DenseNet-121 [1] model pre-trained on Early-QaTa-COV19 is used for this purpose. We extract 1024-D feature vectors after global pooling operation just before the classification layer of the DenseNet-121. Then, a dimensionality reduction is applied over the computed features with PCA by choosing the first 512 principal components.
 
-The pretrained network on Early-QaTa-COV19 is provided: [DenseNet-121](https://drive.google.com/file/d/1QFiuE_odVLSbLvwNNF8n8xyBL-d1IX0a/view?usp=sharing). After downloading the model, save the model under ```/Models``` folder. Now, features can be extracted:
+The pretrained network on Early-QaTa-COV19 is provided: [DenseNet-121](https://drive.google.com/file/d/1QFiuE_odVLSbLvwNNF8n8xyBL-d1IX0a/view?usp=sharing). After downloading the model, save the model under ```Models/``` folder. Now, features can be extracted:
 ```
+mkdir features/
 python feature_extraction.py --weights True
 ```
 In fact, we already provide the extracted [features](https://drive.google.com/file/d/10BmfLgP1FZ8_pjfGSh_9rO1Ye444uTfl/view?usp=sharing). After downloading, store them under ```/features``` for the classifiers in this group. Alternatively, you may choose to train DenseNet-121 from scratch (ImageNet weights) on Early-QaTa-COV19 for the feature extraction:

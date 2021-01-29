@@ -29,6 +29,7 @@ modelName = args['model']
 np.random.seed(7)
 
 path_net = 'Models/'
+if not os.path.exists(path_net): os.makedirs(path_net)
 path_data = '../data/'
 DataAugmentation = True
 

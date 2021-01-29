@@ -37,6 +37,7 @@ def call_model(input_shape):
     return model
 
 path_net = 'Models/'
+if not os.path.exists(path_net): os.makedirs(path_net)
 path_data = '../features/'
 
 normalization = True

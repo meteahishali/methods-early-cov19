@@ -28,7 +28,10 @@ function [] = prepareCSEN(Dic, trainLabel, testLabel, param)
         x_test(i,:,:) = reshape(prox_Y2(:, i), maskM, maskN);
         y_test(i,:,:)=(Dic.label_matrix==testLabel(i));
     end
-        
+    
+    if ~exist('../CSENdata', 'dir')
+       mkdir('../CSENdata')
+    end    
     save(strcat("../CSENdata/data_dic_", num2str(param.MR), '_', num2str(param.k), (".mat")), ... 
         'x_train', 'x_test', 'y_train', 'y_test', 'x_dic', 'y_dic', '-v6');
     
