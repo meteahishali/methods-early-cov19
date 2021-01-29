@@ -67,7 +67,6 @@ Methods in this group need an additional step which is the feature extraction. D
 
 The pretrained network on Early-QaTa-COV19 is provided: [DenseNet-121](https://drive.google.com/file/d/1QFiuE_odVLSbLvwNNF8n8xyBL-d1IX0a/view?usp=sharing). After downloading the model, save the model under ```Models/``` folder. Now, features can be extracted:
 ```
-mkdir features/
 python feature_extraction.py --weights True
 ```
 In fact, we already provide the extracted [features](https://drive.google.com/file/d/10BmfLgP1FZ8_pjfGSh_9rO1Ye444uTfl/view?usp=sharing). After downloading, store them under ```/features``` for the classifiers in this group. Alternatively, you may choose to train DenseNet-121 from scratch (ImageNet weights) on Early-QaTa-COV19 for the feature extraction:
